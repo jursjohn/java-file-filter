@@ -7,7 +7,7 @@
 
 Complete the [src/main/java/com/bytelegend/FileFilter.java](https://github.com/ByteLegendQuest/java-file-filter/blob/main/src/main/java/com/bytelegend/FileFilter.java)'s `filter()` method.
 
-Filter files by extension. Given the directory `directory` and the extension `extension` to return all files with the given extension in the directory (recursively).
+Filter files by extension. Given the directory `directory` and the extension `extension` to return all files with the given extension in the directory (recursively). Hint: you can use the `Files.walkFileTree()` to traverse the directory.
 
 - You can accomplish this challenge via any way below:
   - Recommended for beginners: run `git clone https://github.com/ByteLegendQuest/java-file-filter` to download the code,
@@ -38,7 +38,7 @@ Any changes to files other than the following files will be rejected:**
 
 完成[src/main/java/com/bytelegend/FileFilter.java](https://github.com/ByteLegendQuest/java-file-filter/blob/main/src/main/java/com/bytelegend/FileFilter.java)中的`filter()`方法。
 
-按照扩展名过滤文件。传入要过滤的文件夹`directory`和扩展名`extension`，返回该文件夹以及所有子文件夹下所有该扩展名的文件的绝对路径。
+按照扩展名过滤文件。传入要过滤的文件夹`directory`和扩展名`extension`，返回该文件夹以及所有子文件夹下所有该扩展名的文件的绝对路径。提示：你可以使用`Files.walkFileTree()`来遍历文件夹。
 
 - 你可以使用以下任意一种方法完成挑战：
   - 初学者推荐：运行`git clone https://git.bytelegend.com/ByteLegendQuest/java-file-filter`将代码下载到本地，在本地使用IDE调试完成后复制到网页编辑器里提交。
@@ -68,7 +68,7 @@ Any changes to files other than the following files will be rejected:**
 
 完成[src/main/java/com/bytelegend/FileFilter.java](https://github.com/ByteLegendQuest/java-file-filter/blob/main/src/main/java/com/bytelegend/FileFilter.java)的`filter()`方法。
 
-按擴展名過濾文件。給定目錄`directory`和擴展`extension`以返回目錄中具有給定擴展名的所有文件（遞歸）。
+按擴展名過濾文件。給定目錄`directory`和擴展`extension`以返回目錄中具有給定擴展名的所有文件（遞歸）。提示：您可以使用`Files.walkFileTree()`遍歷目錄。
 
 -   您可以通過以下任何方式完成此挑戰：
     -   建議初學者：運行`git clone https://github.com/ByteLegendQuest/java-file-filter`下載代碼，在本地 IDE 中完成挑戰，然後在 Web 編輯器中復制/粘貼/提交答案。
@@ -97,7 +97,7 @@ Filtro de archivos
 
 Complete el método `filter()` de [src/main/java/com/bytelegend/FileFilter.java](https://github.com/ByteLegendQuest/java-file-filter/blob/main/src/main/java/com/bytelegend/FileFilter.java) .
 
-Filtrar archivos por extensión. Dado el directorio del `directory` y la extensión de la `extension` para devolver todos los archivos con la extensión dada en el directorio (recursivamente).
+Filtrar archivos por extensión. Dado el directorio del `directory` y la extensión de la `extension` para devolver todos los archivos con la extensión dada en el directorio (recursivamente). Sugerencia: puede usar `Files.walkFileTree()` para recorrer el directorio.
 
 -   Puede lograr este desafío de cualquier manera a continuación:
     -   Recomendado para principiantes: ejecute `git clone https://github.com/ByteLegendQuest/java-file-filter` para descargar el código, finalice el desafío en su IDE local, luego copie/pegue/envíe la respuesta en el editor web.
@@ -126,7 +126,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 
 أكمل طريقة `filter()` [src / main / java / com / bytelegend / FileFilter.java](https://github.com/ByteLegendQuest/java-file-filter/blob/main/src/main/java/com/bytelegend/FileFilter.java) .
 
-تصفية الملفات حسب الامتداد. بالنظر إلى دليل `directory` وامتداد `extension` لإرجاع جميع الملفات ذات الامتداد المحدد في الدليل (بشكل متكرر).
+تصفية الملفات حسب الامتداد. بالنظر إلى دليل `directory` وامتداد `extension` لإرجاع جميع الملفات ذات الامتداد المحدد في الدليل (بشكل متكرر). تلميح: يمكنك استخدام `Files.walkFileTree()` لاجتياز الدليل.
 
 -   يمكنك إنجاز هذا التحدي بأي طريقة أدناه:
     -   موصى به للمبتدئين: قم بتشغيل `git clone https://github.com/ByteLegendQuest/java-file-filter` لتنزيل الكود ، وإنهاء التحدي في IDE المحلي الخاص بك ، ثم نسخ / لصق / إرسال الإجابة في محرر الويب.
@@ -155,16 +155,16 @@ Filtro de arquivo
 
 Complete o método `filter()` do [src/main/java/com/bytelegend/FileFilter.java](https://github.com/ByteLegendQuest/java-file-filter/blob/main/src/main/java/com/bytelegend/FileFilter.java) .
 
-Filtre os arquivos por extensão. Dado o diretório do `directory` e a extensão da `extension` para retornar todos os arquivos com a extensão fornecida no diretório (recursivamente).
+Filtre os arquivos por extensão. Dado o diretório do `directory` e a extensão da `extension` para retornar todos os arquivos com a extensão fornecida no diretório (recursivamente). Dica: você pode usar `Files.walkFileTree()` para percorrer o diretório.
 
--   Você pode realizar este desafio de qualquer maneira abaixo:
+-   Você pode realizar esse desafio de qualquer maneira abaixo:
     -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-file-filter` para baixar o código, conclua o desafio em seu IDE local e copie/cole/envie a resposta no editor da web.
         -   Se você não sabe como, você pode clicar em [importar projeto para IDEA](https://github.com/ByteLegendQuest/java-file-filter/blob/main/docs/en/clone-and-import.md) / [importar projeto para VSCode](https://github.com/ByteLegendQuest/java-file-filter/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Antes de enviar seu código, é melhor você executar `mvn verify` localmente para economizar tempo. Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-file-filter/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-file-filter/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-file-filter/zip/refs/heads/main) se não gostar das operações do `git` .
-    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor da web, vá em frente.
+    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor web, vá em frente.
     -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-file-filter) , finalizar o desafio e criar um pull request.
--   O bot verificará seu PR e informará se você cumprir o desafio.
+-   O bot verificará seu PR e informará se você cumpriu o desafio.
 -   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
 
 Boa sorte!
@@ -184,7 +184,7 @@ Filter Berkas
 
 Selesaikan metode [src/main/Java/com/bytelegend/FileFilter.java](https://github.com/ByteLegendQuest/java-file-filter/blob/main/src/main/java/com/bytelegend/FileFilter.java) 's `filter()` .
 
-Filter file menurut ekstensi. Mengingat direktori `directory` dan ekstensi `extension` untuk mengembalikan semua file dengan ekstensi yang diberikan dalam direktori (secara rekursif).
+Filter file menurut ekstensi. Mengingat direktori `directory` dan ekstensi `extension` untuk mengembalikan semua file dengan ekstensi yang diberikan dalam direktori (secara rekursif). Petunjuk: Anda dapat menggunakan `Files.walkFileTree()` untuk menelusuri direktori.
 
 -   Anda dapat menyelesaikan tantangan ini melalui cara apa pun di bawah ini:
     -   Direkomendasikan untuk pemula: jalankan `git clone https://github.com/ByteLegendQuest/java-file-filter` untuk mengunduh kode, selesaikan tantangan di IDE lokal Anda, lalu salin/tempel/kirim jawabannya di editor web.
@@ -213,7 +213,7 @@ Filtre de fichiers
 
 Complétez la méthode `filter()` de [src/main/java/com/bytelegend/FileFilter.java](https://github.com/ByteLegendQuest/java-file-filter/blob/main/src/main/java/com/bytelegend/FileFilter.java) .
 
-Filtrez les fichiers par extension. Étant donné le répertoire `directory` et l'extension `extension` pour renvoyer tous les fichiers avec l'extension donnée dans le répertoire (récursivement).
+Filtrez les fichiers par extension. Étant donné le répertoire `directory` et l'extension `extension` pour renvoyer tous les fichiers avec l'extension donnée dans le répertoire (récursivement). Astuce : vous pouvez utiliser `Files.walkFileTree()` pour parcourir le répertoire.
 
 -   Vous pouvez accomplir ce défi de n'importe quelle manière ci-dessous:
     -   Recommandé pour les débutants : exécutez `git clone https://github.com/ByteLegendQuest/java-file-filter` pour télécharger le code, terminez le défi dans votre IDE local, puis copiez/collez/soumettez la réponse dans l'éditeur Web.
@@ -242,7 +242,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 
 [src / main / java / com / bytelegend / FileFilter.java](https://github.com/ByteLegendQuest/java-file-filter/blob/main/src/main/java/com/bytelegend/FileFilter.java)の`filter()`メソッドを完了します。
 
-拡張子でファイルをフィルタリングします。ディレクトリ`directory`と拡張子`extension`を指定して、ディレクトリ内の指定された拡張子を持つすべてのファイルを（再帰的に）返します。
+拡張子でファイルをフィルタリングします。ディレクトリ`directory`と拡張子`extension`を指定して、ディレクトリ内の指定された拡張子を持つすべてのファイルを（再帰的に）返します。ヒント： `Files.walkFileTree()`を使用してディレクトリをトラバースできます。
 
 -   この課題は、以下のいずれかの方法で達成できます。
     -   初心者に推奨： `git clone https://github.com/ByteLegendQuest/java-file-filter`を実行してコードをダウンロードし、ローカルIDEでチャレンジを終了してから、Webエディターで回答をコピー/貼り付け/送信します。
@@ -271,13 +271,13 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 
 Завершите метод `filter()` [src/main/java/com/bytelegend/FileFilter.java](https://github.com/ByteLegendQuest/java-file-filter/blob/main/src/main/java/com/bytelegend/FileFilter.java) .
 
-Фильтровать файлы по расширению. Учитывая каталог `directory` и расширение `extension` чтобы вернуть все файлы с данным расширением в каталоге (рекурсивно).
+Фильтровать файлы по расширению. Учитывая каталог `directory` и расширение `extension` чтобы вернуть все файлы с данным расширением в каталоге (рекурсивно). Подсказка: вы можете использовать `Files.walkFileTree()` для обхода каталога.
 
 -   Вы можете выполнить эту задачу любым способом, указанным ниже:
     -   Рекомендуется для начинающих: запустите `git clone https://github.com/ByteLegendQuest/java-file-filter` , чтобы загрузить код, выполните задание в локальной среде IDE, затем скопируйте/вставьте/отправьте ответ в веб-редакторе.
         -   Если вы не знаете как, вы можете нажать [импортировать проект в IDEA](https://github.com/ByteLegendQuest/java-file-filter/blob/main/docs/en/clone-and-import.md) / [импортировать проект в VSCode](https://github.com/ByteLegendQuest/java-file-filter/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Перед отправкой кода вам лучше запустить `mvn verify` локально, чтобы сэкономить время. Не знаете как? См. « [Проверить локально в IDEA](https://github.com/ByteLegendQuest/java-file-filter/blob/main/docs/en/run-mvn-verify-idea.md) / [проверить локально в VSCode»](https://github.com/ByteLegendQuest/java-file-filter/blob/main/docs/en/run-mvn-verify-vscode.md) .
-    -   Крайне не рекомендуется: вы можете [щелкнуть здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-file-filter/zip/refs/heads/main) , если вам не нравятся операции `git` .
+    -   Крайне не рекомендуется: вы можете [нажать здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-file-filter/zip/refs/heads/main) , если вам не нравятся операции `git` .
     -   Или: если вы достаточно уверены, чтобы писать код напрямую в веб-редакторе, вперед.
     -   Или: если вы знакомы с GitHub, вы можете разветвить [репозиторий](https://github.com/ByteLegendQuest/java-file-filter) , выполнить задание и создать запрос на включение.
 -   Бот проверит ваш PR и сообщит, выполнили ли вы задание.
@@ -300,7 +300,7 @@ Dateifilter
 
 Vervollständigen Sie die Methode `filter()` von [src/main/java/com/bytelegend/FileFilter.java](https://github.com/ByteLegendQuest/java-file-filter/blob/main/src/main/java/com/bytelegend/FileFilter.java) .
 
-Dateien nach Erweiterung filtern. Gegeben das Verzeichnis `directory` und die Erweiterung `extension` , um alle Dateien mit der angegebenen Erweiterung im Verzeichnis (rekursiv) zurückzugeben.
+Dateien nach Erweiterung filtern. Gegeben das Verzeichnis `directory` und die Erweiterung `extension` , um alle Dateien mit der angegebenen Erweiterung im Verzeichnis (rekursiv) zurückzugeben. Hinweis: Sie können `Files.walkFileTree()` verwenden, um das Verzeichnis zu durchlaufen.
 
 -   Sie können diese Herausforderung auf eine der folgenden Arten meistern:
     -   Empfohlen für Anfänger: Führen Sie `git clone https://github.com/ByteLegendQuest/java-file-filter` aus, um den Code herunterzuladen, beenden Sie die Herausforderung in Ihrer lokalen IDE und kopieren/fügen Sie dann die Antwort im Web-Editor ein/senden Sie sie ab.
@@ -329,10 +329,10 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 
 [src/main/java/com/bytelegend/FileFilter.java](https://github.com/ByteLegendQuest/java-file-filter/blob/main/src/main/java/com/bytelegend/FileFilter.java) 의 `filter()` 메소드를 완료하십시오.
 
-확장자로 파일을 필터링합니다. 디렉토리 `directory` 와 디렉토리에서 주어진 확장자를 가진 모든 파일을 (재귀적으로) 반환하는 확장자 `extension` 가 주어집니다.
+확장자로 파일을 필터링합니다. 디렉토리 `directory` 와 디렉토리에서 주어진 확장자를 가진 모든 파일을 (재귀적으로) 반환하기 위한 확장자 `extension` 가 주어집니다. 힌트: `Files.walkFileTree()` 를 사용하여 디렉토리를 탐색할 수 있습니다.
 
 -   아래 방법을 통해 이 챌린지를 완료할 수 있습니다.
-    -   초보자를 위한 권장 사항: `git clone https://github.com/ByteLegendQuest/java-file-filter` 를 실행하여 코드를 다운로드하고 로컬 IDE에서 챌린지를 완료한 다음 웹 편집기에서 답변을 복사/붙여넣기/제출합니다.
+    -   초보자에게 권장: `git clone https://github.com/ByteLegendQuest/java-file-filter` 를 실행하여 코드를 다운로드하고 로컬 IDE에서 챌린지를 완료한 다음 웹 편집기에서 답변을 복사/붙여넣기/제출합니다.
         -   방법을 모르는 경우 [프로젝트를 IDEA로](https://github.com/ByteLegendQuest/java-file-filter/blob/main/docs/en/clone-and-import.md) [가져오기 / 프로젝트를 VSCode로 가져](https://github.com/ByteLegendQuest/java-file-filter/blob/main/docs/en/clone-and-import-vscode.md) 오기를 클릭할 수 있습니다.
         -   코드를 제출하기 전에 시간을 절약하기 위해 로컬에서 `mvn verify` 를 실행하는 것이 좋습니다. 방법을 모르십니까? [IDEA에서 로컬로](https://github.com/ByteLegendQuest/java-file-filter/blob/main/docs/en/run-mvn-verify-idea.md) [확인/VSCode에서 로컬로](https://github.com/ByteLegendQuest/java-file-filter/blob/main/docs/en/run-mvn-verify-vscode.md) 확인을 참조하세요.
     -   매우 권장하지 않음: `git` 작업이 마음에 들지 않으면 [여기를 클릭하여 압축 코드를 다운로드](https://codeload.github.com/ByteLegendQuest/java-file-filter/zip/refs/heads/main) 할 수 있습니다.
@@ -358,7 +358,7 @@ Filtro file
 
 Completa il metodo `filter()` di [src/main/java/com/bytelegend/FileFilter.java](https://github.com/ByteLegendQuest/java-file-filter/blob/main/src/main/java/com/bytelegend/FileFilter.java) .
 
-Filtra i file per estensione. Data la directory della `directory` e l'estensione `extension` per restituire tutti i file con l'estensione specificata nella directory (ricorsivamente).
+Filtra i file per estensione. Data la directory della `directory` e l'estensione `extension` per restituire tutti i file con l'estensione specificata nella directory (ricorsivamente). Suggerimento: puoi usare `Files.walkFileTree()` per attraversare la directory.
 
 -   Puoi portare a termine questa sfida in qualsiasi modo di seguito:
     -   Consigliato per i principianti: esegui `git clone https://github.com/ByteLegendQuest/java-file-filter` per scaricare il codice, completa la sfida nel tuo IDE locale, quindi copia/incolla/invia la risposta nell'editor web.

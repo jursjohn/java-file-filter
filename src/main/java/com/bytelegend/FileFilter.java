@@ -20,7 +20,8 @@ public class FileFilter {
 
     /**
      * Filter files by extension. Given the directory `directory` and the extension `extension` to
-     * return all files with the given extension in the directory (recursively).
+     * return all files with the given extension in the directory (recursively). Hint: you can use
+     * the `Files.walkFileTree()` to traverse the directory.
      */
     public static List<String> filter(Path directory, String extension) throws IOException {
         return Collections.emptyList();
