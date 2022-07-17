@@ -1,13 +1,9 @@
 package com.bytelegend;
 
 import java.io.IOException;
-import java.nio.file.FileVisitResult;
-import java.nio.file.FileVisitor;
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.attribute.BasicFileAttributes;
-import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class FileFilter {
@@ -17,6 +13,7 @@ public class FileFilter {
         if (!testRootDir.toFile().isDirectory()) {
             throw new IllegalStateException(testRootDir.toAbsolutePath() + " is not a directory!");
         }
+
         List<String> filteredFileNames = filter(testRootDir, "csv");
         System.out.println(filteredFileNames);
     }
@@ -27,31 +24,6 @@ public class FileFilter {
      * the `Files.walkFileTree()` to traverse the directory.
      */
     public static List<String> filter(Path directory, String extension) throws IOException {
-        List<String> list = new ArrayList<>();
-        Files.walkFileTree(directory, new FileVisitor<Path>() {
-            @Override
-            public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {
-                return FileVisitResult.CONTINUE;
-            }
-
-            @Override
-            public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-                if (file.toString().endsWith(extension)) {
-                    list.add(file.getFileName().toString());
-                }
-                return FileVisitResult.CONTINUE;
-            }
-
-            @Override
-            public FileVisitResult visitFileFailed(Path file, IOException exc) throws IOException {
-                return FileVisitResult.CONTINUE;
-            }
-
-            @Override
-            public FileVisitResult postVisitDirectory(Path dir, IOException exc) throws IOException {
-                return FileVisitResult.CONTINUE;
-            }
-        });
-        return list;
+        return Collections.emptyList();
     }
 }
