@@ -28,7 +28,7 @@ public class FileFilter {
      */
     public static List<String> filter(Path directory, String extension) throws IOException {
         List<String> res = new LinkedList<>();
-        Files.walkFileTree(directory, new SimpleFileVisitor<>() {
+        Files.walkFileTree(directory, new SimpleFileVisitor<Path>() {
             @Override
             public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
                 if (file.toString().endsWith("." + extension)) {
